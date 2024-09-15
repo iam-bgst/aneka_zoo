@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  app:
+    container_name: postgres-aneka-zoo
+    image: 'postgres:latest'
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1
+      POSTGRES_DB: aneka_zoo
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./db/zoo.sql:/docker-entrypoint-initdb.d/aneka_zoo.sql
