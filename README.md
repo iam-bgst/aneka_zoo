@@ -1,5 +1,5 @@
 # Aneka Zoo
-Aneka Zoo is a simple API application that allows users to get a list of animals and their details. The application is built using the Go and uses a PostgreSql database to store the data.
+Aneka Zoo is a answer of question test from AnekaPay, this API application that allows users to get a list of animals and their details. The application is built using the Go and uses a PostgreSql database to store the data.
 
 ## Installation
 1. Clone the repository
